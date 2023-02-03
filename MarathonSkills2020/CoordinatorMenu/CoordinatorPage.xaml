@@ -1,0 +1,37 @@
+﻿<Page x:Class="MarathonSkills2020.CoordinatorMenu.CoordinatorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MarathonSkills2020.CoordinatorMenu"
+      mc:Ignorable="d" 
+      d:DesignHeight="920" d:DesignWidth="1220" 
+      Title="Marathon Skills 2020 - Coodinator Menu">
+
+    <!--Разметка-->
+    <Grid Background="{DynamicResource Yellow}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Контент-->
+        <Button x:Name="Runners" Grid.Column="1" Width="550" Height="100" Click="Runners_Click" Style="{DynamicResource Buttons}">
+            <TextBlock TextWrapping="Wrap" TextAlignment="Center" Text="Бегуны"/>
+        </Button>
+        <Button x:Name="Sponsors" Grid.Column="3" Width="560" Height="100" Click="Sponsors_Click" Style="{DynamicResource Buttons}">
+            <TextBlock TextWrapping="NoWrap" TextAlignment="Center" Text="Спонсоры"/>
+        </Button>
+        <Button x:Name="Logout" Grid.Column="3" Grid.Row="2" Click="Logout_Click" Style="{DynamicResource ForLogoutButton}">
+            <TextBlock TextWrapping="NoWrap" TextAlignment="Center" Text="Выйти из системы"/>
+        </Button>
+    </Grid>
+</Page>

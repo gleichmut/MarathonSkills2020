@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="FullSignature">
+  <Class Name="MarathonSkills2020.AboutMarathonSkills.AboutMarathonSkills" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AboutMarathonSkills\AboutMarathonSkills.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.AboutMarathonSkills.ListOfParticipatingCountries" BaseTypeListCollapsed="true">
+    <Position X="49" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AboutMarathonSkills\ListOfParticipatingCountries.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.AdministratorMenu.AdministratorPage" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="10.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAgAAAAEAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdministratorMenu\AdministratorPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.AdministratorMenu.ListOfUsers" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdministratorMenu\ListOfUsers.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.App">
+    <Position X="32.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.MarathonEntities">
+    <Position X="51.25" Y="4.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAACEKAAAAAAAgAgAAAAAQRIEiAAAAAAACAEUAAiAAA=</HashCode>
+      <FileName>BaseModel.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.CharityDB">
+    <Position X="24.75" Y="17.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAIAAAAIAAAAAAAAAQAAAAABAA=</HashCode>
+      <FileName>CharityDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Country">
+    <Position X="34.25" Y="2.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAoAAA=</HashCode>
+      <FileName>Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Event">
+    <Position X="26.75" Y="3.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAgAAAAEAAAAAAAABAEAIAAAAAAAAAAEAgCCAA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.EventType">
+    <Position X="35.75" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>EventType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Gender">
+    <Position X="45.25" Y="2.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Gender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Marathon">
+    <Position X="55" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAIABAAAAAAAAAAAAAAgIAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Marathon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Position">
+    <Position X="20.25" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAACCAIAAAAEAAIAAAAAA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.RaceKitOption">
+    <Position X="24" Y="13" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAA=</HashCode>
+      <FileName>RaceKitOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Registration">
+    <Position X="28" Y="10.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAEAAAAAAAAMAAAAAAABAAgAAAAAAAEAQEQCAiBAA=</HashCode>
+      <FileName>Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.RegistrationEvent">
+    <Position X="4.5" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAIAAAAAAAAACAgAAAAAIAAEAAAAEAAA=</HashCode>
+      <FileName>RegistrationEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.RegistrationStatu">
+    <Position X="44.5" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>RegistrationStatu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Role">
+    <Position X="31.25" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Runner">
+    <Position X="20.25" Y="13.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAIAAACAAACGAAAAAAAAAAAIQAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Runner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Sponsorship">
+    <Position X="48.75" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAEEAAA=</HashCode>
+      <FileName>Sponsorship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Staff">
+    <Position X="35.5" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAACAAAACgAAAAAAAAAACQAAACAAAAAAAAIAg=</HashCode>
+      <FileName>Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.sysdiagram">
+    <Position X="24.75" Y="15.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sysdiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Timesheet">
+    <Position X="0.5" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAEEAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Timesheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.User">
+    <Position X="51.75" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAACAAAAAAEAAAAAAAAAAAAAACAAAAAAAgAAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Volunteer">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAAAAAAAGAAAAAAAAAACIAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Volunteer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.AuthorizationMenu.LoginPage" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="6" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>AuthorizationMenu\LoginPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.BMI.BMI" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="12.25" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>ACIgAQAAAAAAAAAAEAAAgEAAAAAIAAAgAAgAAEAAAAA=</HashCode>
+      <FileName>BMI\BMI.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.BMR.ActivitiesDescription" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BMR\ActivitiesDescription.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.BMR.BMR" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="6" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>ACIgAQAEAAAAQAAAEAAAkEAAAAAIAAAgAAgAAEAAAAA=</HashCode>
+      <FileName>BMR\BMR.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.Charity.AboutCharity" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Charity\AboutCharity.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.Charity.Charity" BaseTypeListCollapsed="true">
+    <Position X="35" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Charity\Charity.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.Charity.Sponsorship" BaseTypeListCollapsed="true">
+    <Position X="39.25" Y="3.5" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAFAjABAEKwIhAACAAGAAACgAAAAAgCAQEAQAA=</HashCode>
+      <FileName>Charity\Sponsorship.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.Charity.SponsorshipConfirmation" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Charity\SponsorshipConfirmation.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Activities">
+    <Position X="27.75" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Activities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculating">
+    <Position X="26.75" Y="6.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>QBAAAEIAAAAQAAIAAAAAAAAABAAEAABAAQAAIBAQACA=</HashCode>
+      <FileName>Classes\Calculating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Checks">
+    <Position X="28.75" Y="17.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAABAAAABAAAAAAAUAAAAAAAACAAAAABAAAAAgAA=</HashCode>
+      <FileName>Classes\Checks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Constants">
+    <Position X="55.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAAAAACgAAAAAAAAAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Classes\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConverterDaysOfWeek">
+    <Position X="45.25" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ConverterDaysOfWeek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImagePathConverter">
+    <Position X="24.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ImagePathConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager">
+    <Position X="48.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="States">
+    <Position X="31.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\States.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Contacts.ContactsPage" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contacts\ContactsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.CoordinatorMenu.CoordinatorPage" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CoordinatorMenu\CoordinatorPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.CoordinatorMenu.ListOfRunners" BaseTypeListCollapsed="true">
+    <Position X="55.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoordinatorMenu\ListOfRunners.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.MainMenu.MainMenu" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="16.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAQAAAAAAABAMAAAAAgEAAAAAAAAAAAABCAAAAA=</HashCode>
+      <FileName>MainMenu\MainMenu.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.MainMenu.MainMenuPage" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="15" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>MainMenu\MainMenuPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.MoreInformation.MoreInformationPage" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="8" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAQAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MoreInformation\MoreInformationPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.Properties.Resources">
+    <Position X="3.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.Properties.Settings">
+    <Position X="34.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarathonSkills2020.RunnerMenu.ListOfSponsors" BaseTypeListCollapsed="true">
+    <Position X="55.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RunnerMenu\ListOfSponsors.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.RunnerMenu.MarathonRegistrationConfirmation" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RunnerMenu\MarathonRegistrationConfirmation.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.RunnerMenu.MarathonRegistrationPage" BaseTypeListCollapsed="true">
+    <Position X="20" Y="4" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAoBg8IBAgAFAACAAQgAABAAEABAAEAAoAgAAAAQAAA=</HashCode>
+      <FileName>RunnerMenu\MarathonRegistrationPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.RunnerMenu.RigisterRunnerMenu" BaseTypeListCollapsed="true">
+    <Position X="20" Y="2" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAoAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RunnerMenu\RigisterRunnerMenu.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.RunnerMenu.RunnerPage" BaseTypeListCollapsed="true">
+    <Position X="39.25" Y="1.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAgAAAAAAAAAACAAAAAAAACAAA=</HashCode>
+      <FileName>RunnerMenu\RunnerPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MarathonSkills2020.RunnerMenu.RunnerRegistration" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="15.75" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAA0AAAAAIAEgAABAAAAICAAACAAAAAAgEBAAAACA=</HashCode>
+      <FileName>RunnerMenu\RunnerRegistration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

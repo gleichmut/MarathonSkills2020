@@ -1,0 +1,63 @@
+﻿<Page x:Class="MarathonSkills2020.Charity.Charity"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MarathonSkills2020.Charity"
+      mc:Ignorable="d" 
+      d:DesignHeight="920" d:DesignWidth="1230"
+      Title="Marathon Skills 2020 - List Of Charities">
+    
+     <!--Разметка-->
+    <Grid Background="{DynamicResource Yellow}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="40*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+
+        <!--Контент-->
+        <Label Content="Список благотворительных организаций" Grid.ColumnSpan="4" Foreground="{DynamicResource Black}" Style="{DynamicResource Labels}"/>
+        <TextBlock Text="Это - список всех благотворительных учреждений, которые поддерживаются в Marathon Skills 2020. Спасибо за помощь вы поддерживаете их, спонсируя бегунов!"
+                       Style="{DynamicResource TextBlocks}" Grid.Row="1" Grid.ColumnSpan="4" Foreground="{DynamicResource Black}"/>
+        <ListView Grid.Row="2" Grid.RowSpan="8" Grid.ColumnSpan="4" x:Name="CharityListView" Background="{DynamicResource LightGrey}" BorderThickness="1" BorderBrush="{DynamicResource Black}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10" Width="1000">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="550"/>
+                            <ColumnDefinition Width="550"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.ColumnSpan="2" x:Name="NameCharity" Style="{DynamicResource TextBlocks}" Text="{Binding CharityName}" Foreground="{DynamicResource Green}" FontWeight="Bold" FontSize="25"/>
+                        <Image Width="400" Grid.Row="1" Stretch="UniformToFill" HorizontalAlignment="Center" Margin="5">
+                            <Image.Source>
+                                <Binding Path="CharityLogo">
+                                    <Binding.TargetNullValue>
+                                        <ImageSource>../Resources/empty_image.png</ImageSource>
+                                    </Binding.TargetNullValue>
+                                </Binding>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="DescriptionCharity" Style="{DynamicResource TextBlocks}" Text="{Binding CharityDescription}" Foreground="{DynamicResource Black}" />
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

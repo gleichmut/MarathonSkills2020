@@ -1,0 +1,30 @@
+﻿<Page x:Class="MarathonSkills2020.RunnerMenu.MarathonRegistrationConfirmation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MarathonSkills2020.RunnerMenu"
+      mc:Ignorable="d" 
+      d:DesignHeight="920" d:DesignWidth="1220"
+      Title="Marathon Skills 2020 - Sponsorship Confirmation">
+
+    <!--Разметка-->
+    <Grid Background="{DynamicResource Yellow}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="40*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+
+        <!--Контент-->
+        <Label Content="Спасибо за вашу регистрацию в качестве бегуна!" Grid.ColumnSpan="4" Foreground="{DynamicResource Black}" FontSize="50" Style="{DynamicResource Labels}"/>
+        <TextBlock Text="Спасибо за вашу регистрацию в качестве бегуна в Marathon Skills 2020! С Вами свяжутся по поводу оплаты!" Style="{DynamicResource TextBlocks}" Grid.Row="1" Grid.ColumnSpan="4" FontSize="35" TextAlignment="Center" Foreground="{DynamicResource Black}"/>
+        <Button x:Name="OKButton" Style="{DynamicResource Buttons}" Click="OKButton_Click" Width="200" Content="OK" Grid.Row="2" Grid.Column="1"  Grid.ColumnSpan="2"/>
+    </Grid>
+</Page>
